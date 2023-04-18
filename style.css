@@ -125,6 +125,12 @@ hr {
     background-color: #fda96044;
     background-color: #ffd181a6;
     border-color: #ffd181a6;
+    border-radius: 5%;
+}
+.btn-x2:hover {
+    background-color: red;
+    background-color: #ffd181;
+
 }
 
 /* ....................................ACTIVITES................................................. */
