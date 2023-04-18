@@ -1,0 +1,360 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'El Messiri', sans-serif;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.masthead {
+    background: url(images/background_jamaa_el_fna.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 13%;
+    background-repeat: no-repeat;
+
+}
+
+
+.navbar {
+    color: black;
+    background-color: white;
+    /* background-color: #DCB694; */
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.nav-item :hover {
+    background-color: #ffd181a6;
+    /* background-color: #DCB694; */
+    border-radius: 5%;
+}
+
+#h1accueil {
+
+    color: brown;
+    text-decoration-color: black;
+    text-shadow: black;
+    padding: 0;
+    margin: 20%;
+    margin-top: 5%;
+    background-color: #fda96044;
+    border-radius: 100%;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+
+    /* background-color: #fabd983b; */
+
+}
+/* J'ai inséré une police de caractère qui finalement ne convient pas. */
+/* @font-face {
+    font-family: "Arab";
+    src: url(./assets/ArabDances.ttf); */
+
+
+hr {
+    border: 0;
+}
+
+
+/* background-color: #fabd9827; */
+
+
+/* ...............................Voyage........................................................*/
+.pagevoyage {
+    padding: 0;
+    margin-top: 5%;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #ffd181a6; */
+    /* background-color: #BD8351; */
+    /* background-color: #E29C60; */
+    background-color: #DCB694;
+    text-align: justify;
+    
+}
+.pvoyage {
+    text-align: justify;
+}
+
+#kech {
+    color: brown;
+}
+
+#aeroport {
+
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+
+#titrevoyage {
+    text-align: center;
+    margin-top: 8%;
+}
+
+
+/* ...........................boutons icones................................ */
+.fs-1 {
+    color: #371613;
+    color: #6C6C74;
+
+
+}
+
+.btn-x2 {
+    color: black;
+    /* color: brown; */
+    font-weight: bold;
+    background-color: black;
+    background-color: #DCD3D6;
+    background-color: #fda96044;
+    background-color: #ffd181a6;
+    border-color: #ffd181a6;
+}
+
+/* ....................................ACTIVITES................................................. */
+.portfolio {
+    padding: 5%;
+    width: 100%vh;
+    background-color: #DCB694;
+    color: black;
+    margin: 0%;
+}
+
+.portfolio-box-caption {
+    color: black !important;
+    text-decoration: none !important;
+    margin: 0%;
+    padding: 0;
+}
+
+.col-lg-4 {
+    text-decoration: none;
+}
+
+.project-category {
+    font-weight: 500;
+}
+
+/* ...............................EXCURSIONS....................................... */
+
+.project-name{
+
+    text-align: justify;
+}
+/* ......................................INFOS UTILES..................................... */
+
+#infos {
+
+    background-color: #DCB694;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    color: black;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: El Messiri;
+}
+
+
+#titreinfos {
+
+    margin-top: 5%;
+}
+
+.card {
+    /* width: 300px; */
+    width: 100%;
+    height: 280px;
+    height: 75%;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+}
+
+.card * {
+    transition: 0.3s ease all;
+}
+
+.card img {
+    margin: 0;
+    /* width: 300px; */
+    width: 100%;
+    /* height: 224px; */
+    height: 75%;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    /* font-size: 20px; */
+    font-size: 18px;
+}
+
+.card .focus-content {
+    display: block;
+    padding: 8px 12px;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card:hover img,
+.card:focus-within img {
+    margin-top: -80px;
+}
+
+.card:hover h3,
+.card:focus-within h3 {
+    padding: 8px 12px 0;
+}
+
+/* ....................................CONTACT.................................................... */
+.formulaire {
+    padding: 5%;
+    width: 100%;
+    margin-top: 1%;
+    min-height: 100vh;
+    background-color: #DCB694;
+    background: url(images/coucher_de_soleil.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    color: wheat;
+}
+
+.contact {
+    color: wheat;
+}
+
+.form-control {
+
+    color: wheat;
+}
+
+#btnsubmit {
+    justify-content: center;
+    display: flex;
+    background-color: #DCB694;
+}
+
+.mb-3 {
+    margin-left: 0%;
+    text-align: center;
+}
+
+.form-label {
+    width: 100%;
+    color: wheat;
+}
+
+/* ................................MENTIONS LEGALES........................................ */
+/* page mention */
+.mentions {
+
+padding: 0;
+margin: 0;
+height: 100%;
+}
+.pMention {
+
+    margin: 10%;
+    text-align: justify;
+}
+
+/* page mentions */
+.mentions {
+    justify-content: center;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    background-color: #DCB694 !important;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh; 
+}
+/* page test mention */
+.test {
+    justify-content: center;
+    text-align: justify;
+    margin-top: 5%;
+    background-color: #DCB694 !important;
+    min-height: 100vh;
+}
+#titrementions{
+    margin-top: 5%;
+    font-size: large;
+    font-weight: 520;
+}
+/* ........................................FOOTER....................................... */
+
+.contact {
+    text-align: center;
+}
+#footercontact {
+
+    /* margin: 0; */
+    padding: 0;
+    /* margin-bottom: 0% !important; */
+}
+.bi {
+    color: white;
+    color: brown;
+}
+
+.repair {
+    color: rgba(255, 255, 255, 0.068);
+}
+
+#repair {
+    color: rgba(0, 0, 0, 0.078);
+}
+
+#repairbeige, .repairbeige {
+    color: #dcb69417;
+}
+
+#fleche {
+    color: brown;
+    text-decoration: none;
+}
+
+/* ................. MENTIONS LEGALES.................................... */
+
+
+/* J'ai essayé d'insérer des media queries pour essayer de régler un problème de responsive au niveau de la page infos utiles, mais l'utilisation de % pour définir les largeurs des cards et images
+   a réglé le problème.
+   
+   @media screen and (max-width: 767px) {
+        .masthead {
+            margin: auto;
+            width: 100%;
+        }
+       
+    }  */
